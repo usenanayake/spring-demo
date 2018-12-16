@@ -47,7 +47,7 @@ public class first {
 	@GetMapping("/find/{id}")
 	public UserDTO getUserById(@PathVariable Integer id){
 		
-		return userServices.findById(id);
+		return userServices.findd(id);
 	
 	}
 	
