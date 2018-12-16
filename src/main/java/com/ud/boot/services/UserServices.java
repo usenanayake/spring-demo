@@ -12,6 +12,8 @@ public interface UserServices {
 	
 	String updateUser(UserDTO newUserData);
 	
-	UserDTO findById (Integer id);
+	//UserDTO findById (Integer id);
+	
+	UserDTO findd (Integer id);
 
 }

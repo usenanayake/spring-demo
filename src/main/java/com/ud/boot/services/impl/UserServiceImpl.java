@@ -42,9 +42,17 @@ public class UserServiceImpl implements UserServices {
 	}
 	
 	
+//	@Override
+//	public UserDTO findById(Integer id) {
+//		return userRepository.findOne(id);
+//		
+//	}
+	
 	@Override
-	public UserDTO findById(Integer id) {
-		return userRepository.findOne(id);
+	public UserDTO findd(Integer id) {
+		return userRepository.findd(id);
 		
 	}
+
+
 }
