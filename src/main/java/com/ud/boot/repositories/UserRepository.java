@@ -7,7 +7,7 @@ import com.ud.boot.domain.UserDTO;
 
 public interface UserRepository extends JpaRepository<UserDTO, Integer>{
 	
-	 @Query("select age from userdto where user_id =?1 ")
+	 @Query("select s from userdto s where s.user_id =?1 ")
 		UserDTO findd(Integer id);
 
 
